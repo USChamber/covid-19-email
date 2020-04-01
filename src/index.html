@@ -22,7 +22,7 @@
     <!-- Insert font reference, e.g. <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
     <!--<![endif]-->
     <style>
-        @@include('../tmp/style.css')
+        @@include('../.tmp/style.css')
     </style>
 </head>
 <!-- {{system.unsubscribeLink}} -->
@@ -40,22 +40,18 @@
         <tr>
             <td valign="top">
                 <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="750" class="container">
+                    align="center" width="100%" class="container">
                     <tr>
                         <td>
-                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                                align="center" width="100%">
-                                <tr>
-                                    <td>
-                                        @@include('./components/navbar.html')
-                                        @@include('./components/header.html')
-                                        @@include('./components/developments-that-matter.html')
-                                        @@include('./components/numbers-to-know.html')
-                                        @@include('./components/chamber-in-action.html')
-                                        @@include('./components/call-to-action.html')
-                                    </td>
-                                </tr>
-                            </table>
+                            @@include('./components/navbar.html')
+                            @@include('./components/header.html')
+                            @@include('./components/developments-that-matter.html')
+                            @@include('./components/top-story.html')
+                            @@include('./components/chamber-in-action.html')
+                            @@include('./components/small-biz-persp.html')
+                            @@include('./components/duty-calls.html')
+                            @@include('./components/what-reading.html')
+                            @@include('./components/call-to-action.html')
                         </td>
                     </tr>
                     <tr>

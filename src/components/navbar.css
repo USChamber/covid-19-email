@@ -1,0 +1,30 @@
+#Navbar {
+    font-size: 16px;
+    width: 100%;
+}
+
+#Navbar td {
+    display: inline-block;
+    padding: 10px;
+}
+
+#Navbar #Logo {
+    width: 250px;
+}
+
+#Navbar .quick-links {
+    /* float: right; */
+    text-align: right;
+}
+
+#Navbar .quick-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 70%;
+}
+
+@media (max-width: 715px) {
+    #Navbar .quick-link {
+        display: none;
+    }
+}
