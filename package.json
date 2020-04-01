@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "deploy": "sh deploy.sh",
-    "build": "node build.js",
-    "dev": "live-server ./src/"
+    "build": "gulp && node build.js",
+    "dev": "gulp dev"
   },
   "author": "",
   "license": "ISC",
