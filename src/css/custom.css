@@ -235,4 +235,68 @@ h3.bg {
     }
 }
 
+.width600 {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.full-width {
+    width: 100%;
+    max-width: 968px;
+}
+
+#blueBar {
+    width: 100%;
+}
+
+#ChamberInAction .hr-fake.hr-red{
+    margin: 0 20px;
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+.grey-line {
+    border-bottom: 1px solid #ccc;
+}
+
+.split-image {
+    width: 60%;
+}
+
+.split-image img {
+    width: 100%;
+}
+
+@media (max-width:499px) {
+    .smallbiz-desktop {
+        display: none;
+    }
+}
+@media (min-width:500px) {
+    .smallbiz-mobile {
+        display: none;
+    }
+}
+
+.smallbiz-mobile td, .smallbiz-mobile img {
+    width: 100%;
+}
+
+.smallbiz-desktop {
+    line-height: 10px;
+}
+
+.smallbiz-desktop h3 {
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.smallbiz-desktop h4 {
+    line-height: 30px;
+}
 /* SPECIFIC STYLING */
