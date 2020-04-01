@@ -1,0 +1,71 @@
+<!-- 
+	HTML Email Starter Kit
+	Documentation: https://github.com/timothylong/html-email-starter-kit
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <!--[if !mso]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="x-apple-disable-message-reformatting">
+    <title></title>
+    <!--[if mso]>
+        <style>
+            * { font-family: sans-serif !important; }
+        </style>
+    <![endif]-->
+    <!--[if !mso]><!-->
+    <!-- Insert font reference, e.g. <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
+    <!--<![endif]-->
+    <style>
+        @@include('../tmp/style.css')
+    </style>
+</head>
+<!-- {{system.unsubscribeLink}} -->
+
+<body>
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+        <!-- Preheader message here -->
+        <div class="mktoText" mktoname="Preheader Text" id="PreheaderText"></div>
+    </div>
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+        &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+        class="document">
+        <tr>
+            <td valign="top">
+                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                    align="center" width="750" class="container">
+                    <tr>
+                        <td>
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%">
+                                <tr>
+                                    <td>
+                                        @@include('./components/navbar.html')
+                                        @@include('./components/header.html')
+                                        @@include('./components/developments-that-matter.html')
+                                        @@include('./components/numbers-to-know.html')
+                                        @@include('./components/chamber-in-action.html')
+                                        @@include('./components/call-to-action.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="spacer-v-30"></td>
+                    </tr>
+                </table>
+                @@include('./components/footer.html')
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

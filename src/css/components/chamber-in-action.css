@@ -1,0 +1,14 @@
+#ChamberInAction > tbody > tr > td {
+    vertical-align: top;
+}
+
+#Sidebar {
+    width: 300px;
+    padding: 10px 0 10px 10px;
+}
+
+@media only screen and (max-width: 640px) {
+    #Sidebar {
+        padding: 0 0 0 0;
+    }
+}

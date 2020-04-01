@@ -1,0 +1,22 @@
+{
+  "name": "covid-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "sh deploy.sh",
+    "build": "node build.js",
+    "dev": "live-server ./src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inline-css": "^2.6.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.1.1"
+  }
+}

@@ -1,0 +1,1 @@
+aws s3 sync ./img s3://uschamber-webassets/email-assets/daily-bulletin/ --acl public-read

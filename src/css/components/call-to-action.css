@@ -1,0 +1,13 @@
+.social-container {
+    width: 50%;
+}
+
+.social a img {
+    width: 40px;
+    margin: 5px;
+}
+
+.social td:nth-child(1),
+.social td:nth-child(3) {
+    width: 45%;
+}
