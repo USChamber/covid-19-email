@@ -154,6 +154,10 @@ h3.bg {
     padding: 30px;
 }
 
+.spacer-h-5 {
+    width: 5px;
+}
+
 .spacer-h-10 {
     width: 10px;
 }
