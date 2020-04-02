@@ -1,9 +1,20 @@
 <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="300px">
     <tr>
         <td class="mobile-block text-align-center">
-            <a href="{{system.forwardToFriendLink}}" class="btn btn-block btn-black">forward
-                to a
-                friend</a>
+            <div>
+                <!--[if mso]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{system.forwardToFriendLink}}" style="height:50px;v-text-anchor:middle;width:150px;" stroke="f" fillcolor="#1e2226">
+                <w:anchorlock/>
+                <center>
+              <![endif]-->
+                <a href="{{system.forwardToFriendLink}}"
+                    style="background-color:#1e2226;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;">Forward
+                    to a Friend</a>
+                <!--[if mso]>
+                </center>
+              </v:rect>
+            <![endif]-->
+            </div>
         </td>
     </tr>
     <tr>
@@ -12,14 +23,21 @@
     <tr class="social">
         <td class="mobile-block">
             <div class="btn-block">
-                <a href="https://www.facebook.com/uschamber/">
-                    <img src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/facebook.png" />
+                <a href="${SocialFacebookUrl}">
+                    <img src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/facebook.png"
+                        width="40" height="40" />
                 </a>
-                <a href="https://twitter.com/USChamber">
-                    <img src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/twitter.png" />
+                <a href="${SocialTwitterUrl}">
+                    <img src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/twitter.png"
+                        width="40" height="40" />
                 </a>
-                <a href="https://www.linkedin.com/company/u-s--chamber-of-commerce/">
-                    <img src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/linkedin.png" />
+                <a href="${SocialLinkedInUrl}">
+                    <img src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/linkedin.png"
+                        width="40" height="40" />
+                </a>
+                <a href="${SocialInstagramUrl}">
+                    <img src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/instagram.png"
+                        width="40" height="40" />
                 </a>
             </div>
         </td>

@@ -8,7 +8,7 @@
     <tr>
         <td></td>
         <td class="">
-            <h2>Developments that matter</h2>
+            <h2>${DevThatMatterHeadline}</h2>
         </td>
         <td></td>
     </tr>
@@ -22,7 +22,8 @@
         <td>
             <center>
                 <h3 class="color-blue">
-                    <div class="mktoText" mktoname="Developments That Matter Headline" id="DevelopmentsThatMatterHeadline">
+                    <div class="mktoText" mktoname="Developments That Matter Headline"
+                        id="DevelopmentsThatMatterHeadline">
                         Headline</div>
                 </h3>
             </center>
@@ -75,17 +76,40 @@
     <tr>
         <td></td>
         <td>
-            <div class="text-align-center">
-                <a href="#" class="btn btn-black" id="EventsPageBtn">Visit events page</a>
-                <a href="#" id="AddToCal">
-                    <img src="addToCal.png">
-                </a>
-                <b>
-                    <div class="mktoText inline-block color-red" mktoname="Event Date/Time" id="EventDateTime">
-                        <p>June<br />7<br />3PM</p>
-                    </div>
-                </b>
-            </div>
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <!--[if mso]>
+                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="${EventsPageBtnUrl}" style="height:70px;v-text-anchor:middle;width:135px;" stroke="f" fillcolor="#1e2226">
+                                <w:anchorlock/>
+                                <center>
+                            <![endif]-->
+                            <a href="${EventsPageBtnUrl}"
+                                style="background-color:#1e2226;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:70px;text-align:center;text-decoration:none;width:135px;-webkit-text-size-adjust:none;">Visit
+                                Events Page</a>
+                            <!--[if mso]>
+                                </center>
+                            </v:rect>
+                            <![endif]-->
+                        </td>
+                        <td>
+                            <a href="${AddToCalUrl}" id="AddToCal">
+                                <img
+                                    src="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/addToCal.png">
+                            </a>
+                        </td>
+                        <td>
+                            <b>
+                                <div class="mktoText inline-block color-red" mktoname="Event Date/Time"
+                                    id="EventDateTime">
+                                    <p>June<br />7<br />3PM</p>
+                                </div>
+                            </b>
+                        </td>
+                    </tr>
+                </table>
+            </center>
         </td>
         <td></td>
     </tr>

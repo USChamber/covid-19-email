@@ -24,7 +24,7 @@ const files = {
 function includeHtmlComponents() {
   return src(files.html.dev)
     .pipe(fileinclude({
-      prefix: '@@',
+      prefix: '##',
       basepath: '@file'
     }))
     .pipe(dest(files.dest.path));

@@ -3,6 +3,7 @@
 	Documentation: https://github.com/timothylong/html-email-starter-kit
 -->
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -21,13 +22,67 @@
     <!--[if !mso]><!-->
     <!-- Insert font reference, e.g. <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
     <!--<![endif]-->
+
+    <!--NAVIGATION-->
+    <meta class="mktoString" id="QuickLinkText1" mktoName="Quick Link Text 1" default="Coronavirus Live Blog">
+    <meta class="mktoString" id="QuickLinkUrl1" mktoName="Quick Link URL 1"
+        default="https://www.uschamber.com/series/above-the-fold/coronavirus-live-blog">
+    <meta class="mktoString" id="QuickLinkText2" mktoName="Quick Link Text 2" default="Guidance for Employers">
+    <meta class="mktoString" id="QuickLinkUrl2" mktoName="Quick Link URL 2"
+        default="https://www.uschamber.com/sites/default/files/guidance_for_employers_to_plan_and_respond_to_the_coronavirus_031620.pdf">
+    <meta class="mktoString" id="QuickLinkText3" mktoName="Quick Link Text 3" default="Small Business Checklist">
+    <meta class="mktoString" id="QuickLinkUrl3" mktoName="Quick Link URL 3"
+        default="https://www.uschamber.com/report/coronavirus-emergency-loans-guide-and-checklist-small-businesses">
+
+
+    <!--HEADER-->
+    <meta class="mktoString" id="HeaderText" mktoName="Header Text" default="Chamber Daily Bulletin">
+    <meta class="mktoString" id="SubheaderText" mktoName="Subheader Text" default="Your daily guide to COVID-19
+                advice, resources, and
+                information.">
+    <meta class="mktoString" id="Tagline" mktoName="Tagline"
+        default="Keep your business strong, prepared, and proactive.">
+    <meta class="mktoString" id="VisitSiteButtonUrl" mktoName="Visit Site Button URL"
+        default="https://www.uschamber.com/coronavirus">
+
+    <!--EVENTS-->
+    <meta class="mktoString" id="EventsPageBtnUrl" mktoName="Events Page Button URL"
+        default="https://www.uschamber.com/events">
+    <meta class="mktoString" id="AddToCalUrl" mktoName="Add To Calendar URL" default="https://www.uschamber.com/events">
+
+    <!--TOP STORY-->
+    <meta class="mktoImg" id="TopStoryBackgroundImage" mktoName="Top Story Background Image"
+        default="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/top.jpg">
+
+    <!-- HEADLINES -->
+    <meta class="mktoString" id="DevThatMatterHeadline" mktoName="Developments That Matter Headline"
+        default="Developments that matter">
+    <meta class="mktoString" id="ChamberInActionHeadline" mktoName="Chamber in Action Headline"
+        default="Chamber in Action">
+    <meta class="mktoString" id="SmallBizPerspectiveHeadline" mktoName="Small Biz Perspective Headline"
+        default="Small Biz Perspectives">
+    <meta class="mktoString" id="DutyCallsHeadline" mktoName="Duty Calls Headline"
+        default="Duty Calls, Business Responds">
+    <meta class="mktoString" id="WhatReadHeadline" mktoName="What Reading Headline" default="What We're Reading">
+
+    <!-- SOCIAL AND FORWARDING -->
+    <meta class="mktoString" id="SocialFacebookUrl" mktoName="Facebook URL"
+        default="https://www.facebook.com/uschamber/">
+    <meta class="mktoString" id="SocialTwitterUrl" mktoName="Twitter URL" default="https://www.twitter.com/uschamber/">
+    <meta class="mktoString" id="SocialLinkedInUrl" mktoName="LinkedIn URL"
+        default="https://www.linkedin.com/uschamber/">
+    <meta class="mktoString" id="SocialInstagramUrl" mktoName="Instagram URL"
+        default="https://www.instagram.com/uschamber/">
+
     <style>
-        @@include('../.tmp/style.css')
+        ##include('../.tmp/style.css')
     </style>
 </head>
 <!-- {{system.unsubscribeLink}} -->
 
 <body>
+
+
     <div style="display: none; max-height: 0px; overflow: hidden;">
         <!-- Preheader message here -->
         <div class="mktoText" mktoname="Preheader Text" id="PreheaderText"></div>
@@ -35,154 +90,215 @@
     <div style="display: none; max-height: 0px; overflow: hidden;">
         &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
     </div>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" class="full-width navbar">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
-                    <tr>
-                        <td>
-                            @@include('./components/navbar.html')
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-        class="width600" width="600">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
-                    <tr>
-                        <td class="spacer-v-30"></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            @@include('./components/header.html')
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="spacer-v-30"></td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" class="full-width">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
-                    <tr>
-                        <td>
-                            @@include('./components/hr-fake-hr-blue.html')
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-        class="width600" width="600">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
-                    <tr>
-                        <td>
-                            @@include('./components/developments-that-matter.html')
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+
     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
         class="full-width">
         <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
+            <td class="mktoContainer" id="MainContainer">
+                <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                <tr>
+                <td align="center" valign="top" width="600">
+                <![endif]-->
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 navbar mktoModule" mktoName="Temporary Invite Section" id="TemporaryInvite"
+                    width="600" mktoAddByDefault="false">
                     <tr>
-                        <td>
-                            @@include('./components/top-story.html')
+                        <td valign="top">
+                            <div class="mktoText" mktoname="Invitation Message" id="InvitationMessage">
+                            </div>
                         </td>
                     </tr>
                 </table>
-            </td>
-        </tr>
-    </table>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-        class="width600" width="600">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="full-width navbar mktoModule" mktoName="Navigation Bar" id="NavbarContainer">
                     <tr>
-                        <td>
-                            @@include('./components/chamber-in-action.html')
-                        </td>
-                    </tr>
-                    <tr>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-        class="full-width" width="600">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
-                    <tr>
-                        <td>
-                            @@include('./components/small-biz-persp.html')
-                        </td>
-                    </tr>
-                    <tr>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-        class="width600" width="600">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
-                    <tr>
-                        <td>
-                            @@include('./components/duty-calls.html')
-                            @@include('./components/what-reading.html')
-                            @@include('./components/call-to-action.html')
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td>
+                                        ##include('./components/navbar.html')
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
                 </table>
-            </td>
-        </tr>
-    </table>
-    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-        class="width600" width="600">
-        <tr>
-            <td valign="top">
-                <table id="Content" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
-                    align="center" width="100%" class="container">
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Header" id="HeaderContainer">
                     <tr>
-                        <td>
-                            @@include('./components/footer.html')
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="spacer-v-30"></td>
+                                </tr>
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/header.html')
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="spacer-v-30"></td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="full-width mktoModule" mktoName="Blue Line" id="BlueLine">
                     <tr>
-                        <td class="spacer-v-30"></td>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td>
+                                        ##include('./components/hr-fake-hr-blue.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
                     </tr>
                 </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Developments That Matter"
+                    id="DevThatMatterContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/developments-that-matter.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="full-width mktoModule" mktoName="Top Story" id="TopStoryContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td>
+                                        ##include('./components/top-story.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Chamber in Action" id="ChamberInActionContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/chamber-in-action.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="full-width mktoModule" width="600" mktoName="Small Business Perspective"
+                    id="SmallBizContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td>
+                                        ##include('./components/small-biz-persp.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Duty Calls Header" id="DutyCallsHeaderContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/duty-calls.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="full-width mktoModule" width="600" mktoName="Duty Calls Image" id="DutyCallsImgContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td>
+                                        ##include('./components/duty-calls-image.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Duty Calls and What's Reading"
+                    id="DutyCallsContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/duty-calls-stories.html')
+                                        ##include('./components/what-reading.html')
+                                        ##include('./components/call-to-action.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Footer" id="FooterContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/footer.html')
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="spacer-v-30"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
             </td>
         </tr>
     </table>
+
+
 </body>
 
 </html>

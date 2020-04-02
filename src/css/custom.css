@@ -1,4 +1,12 @@
-* {
+/* OUTLOOK 2016 FIXES */
+
+td {
+    /* word-break: break-all; */
+}
+
+/* TAGS */
+
+body * {
     font-family: Arial, sans-serif;
 }
 
@@ -179,11 +187,6 @@ h3.bg {
 }
 
 @media only screen and (max-width: 640px) {
-    .mobile-block {
-        display: block !important;
-        width: 100% !important;
-    }
-
     .mobile-collapse {
         height: 0 !important;
         width: 0 !important;
@@ -233,6 +236,9 @@ h3.bg {
         width: 80%;
         margin: 0 auto;
     }
+    td {
+        word-break: normal;
+    }
 }
 
 .width600 {
@@ -250,7 +256,7 @@ h3.bg {
     width: 100%;
 }
 
-#ChamberInAction .hr-fake.hr-red{
+#ChamberInAction .hr-fake.hr-red {
     margin: 0 20px;
 }
 
@@ -270,18 +276,26 @@ h3.bg {
     width: 100%;
 }
 
-@media (max-width:499px) {
+@media (max-width: 499px) {
     .smallbiz-desktop {
         display: none;
     }
+    .mobile-block {
+        display: block !important;
+        width: 100% !important;
+    }
+    .mobile-reverse {
+        direction: rtl;
+    }
 }
-@media (min-width:500px) {
+@media (min-width: 500px) {
     .smallbiz-mobile {
         display: none;
     }
 }
 
-.smallbiz-mobile td, .smallbiz-mobile img {
+.smallbiz-mobile td,
+.smallbiz-mobile img {
     width: 100%;
 }
 
