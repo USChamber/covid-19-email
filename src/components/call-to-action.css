@@ -1,13 +1,8 @@
-.social-container {
-    width: 50%;
-}
-
 .social a img {
     width: 40px;
-    margin: 5px;
 }
-
-.social td:nth-child(1),
-.social td:nth-child(3) {
-    width: 45%;
+.social a {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
 }

@@ -10,7 +10,7 @@ const init = () => {
     inlineCss(html, {
             removeStyleTags: false,
             url: 'https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/',
-            applyTableAttributes: true,
+            // applyTableAttributes: true,
         })
         .then(function (result) {
             const dir = path.join(__dirname, 'dist');

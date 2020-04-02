@@ -23,6 +23,10 @@
     <!-- Insert font reference, e.g. <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
     <!--<![endif]-->
 
+    <!--HIDDEN FIELDS-->
+    <meta class="mktoString" id="PreheaderText" mktoName="Preheader Text"
+        default="The latest from the U.S. Chamber of Commerce">
+
     <!--NAVIGATION-->
     <meta class="mktoString" id="QuickLinkText1" mktoName="Quick Link Text 1" default="Coronavirus Live Blog">
     <meta class="mktoString" id="QuickLinkUrl1" mktoName="Quick Link URL 1"
@@ -84,7 +88,7 @@
 
     <div style="display: none; max-height: 0px; overflow: hidden;">
         <!-- Preheader message here -->
-        <div class="mktoText" mktoname="Preheader Text" id="PreheaderText"></div>
+        ${PreheaderText}
     </div>
     <div style="display: none; max-height: 0px; overflow: hidden;">
         &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
@@ -103,10 +107,16 @@
                     class="width600 navbar mktoModule" mktoName="Temporary Invite Section" id="TemporaryInvite"
                     width="600" mktoAddByDefault="false">
                     <tr>
+                        <td class="spacer-v-20"></td>
+                    </tr>
+                    <tr>
                         <td valign="top">
                             <div class="mktoText" mktoname="Invitation Message" id="InvitationMessage">
                             </div>
                         </td>
+                    </tr>
+                    <tr>
+                        <td class="spacer-v-20"></td>
                     </tr>
                 </table>
                 <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
