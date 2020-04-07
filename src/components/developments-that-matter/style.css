@@ -1,0 +1,9 @@
+#DevelopmentsThatMatter a {
+    display: inline-block;
+    vertical-align: top;
+}
+#DevelopmentsThatMatter p a {
+    color: #15bef0;
+    text-decoration: underline;
+    display: inline;
+}

@@ -5,82 +5,8 @@
 <!DOCTYPE html>
 
 <html>
+##include('./head.html')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1">
-    <!--[if !mso]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
-    <meta name="x-apple-disable-message-reformatting">
-    <title></title>
-    <!--[if mso]>
-        <style>
-            * { font-family: sans-serif !important; }
-        </style>
-    <![endif]-->
-    <!--[if !mso]><!-->
-    <!-- Insert font reference, e.g. <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
-    <!--<![endif]-->
-
-    <!--HIDDEN FIELDS-->
-    <meta class="mktoString" id="PreheaderText" mktoName="Preheader Text"
-        default="The latest from the U.S. Chamber of Commerce">
-
-    <!--NAVIGATION-->
-    <meta class="mktoString" id="QuickLinkText1" mktoName="Quick Link Text 1" default="Coronavirus Live Blog">
-    <meta class="mktoString" id="QuickLinkUrl1" mktoName="Quick Link URL 1"
-        default="https://www.uschamber.com/series/above-the-fold/coronavirus-live-blog">
-    <meta class="mktoString" id="QuickLinkText2" mktoName="Quick Link Text 2" default="Guidance for Employers">
-    <meta class="mktoString" id="QuickLinkUrl2" mktoName="Quick Link URL 2"
-        default="https://www.uschamber.com/sites/default/files/guidance_for_employers_to_plan_and_respond_to_the_coronavirus_031620.pdf">
-    <meta class="mktoString" id="QuickLinkText3" mktoName="Quick Link Text 3" default="Small Business Checklist">
-    <meta class="mktoString" id="QuickLinkUrl3" mktoName="Quick Link URL 3"
-        default="https://www.uschamber.com/report/coronavirus-emergency-loans-guide-and-checklist-small-businesses">
-
-    <!--HEADER-->
-    <meta class="mktoString" id="HeaderText" mktoName="Header Text" default="Chamber Daily Bulletin">
-    <meta class="mktoString" id="SubheaderText" mktoName="Subheader Text" default="Your daily guide to COVID-19
-                advice, resources, and
-                information.">
-    <meta class="mktoString" id="Tagline" mktoName="Tagline"
-        default="Keep your business strong, prepared, and proactive.">
-    <meta class="mktoString" id="VisitSiteButtonUrl" mktoName="Visit Site Button URL"
-        default="https://www.uschamber.com/coronavirus">
-
-    <!--EVENTS-->
-    <meta class="mktoString" id="EventsPageBtnUrl" mktoName="Events Page Button URL"
-        default="https://www.uschamber.com/events">
-    <meta class="mktoString" id="AddToCalUrl" mktoName="Add To Calendar URL" default="https://www.uschamber.com/events">
-
-    <!--TOP STORY-->
-    <meta class="mktoImg" id="TopStoryBackgroundImage" mktoName="Top Story Background Image"
-        default="https://uschamber-webassets.s3.amazonaws.com/email-assets/daily-bulletin/top.jpg">
-
-    <!-- HEADLINES -->
-    <meta class="mktoString" id="DevThatMatterHeadline" mktoName="Developments That Matter Headline"
-        default="Developments that matter">
-    <meta class="mktoString" id="ChamberInActionHeadline" mktoName="Chamber in Action Headline"
-        default="Chamber in Action">
-    <meta class="mktoString" id="SmallBizPerspectiveHeadline" mktoName="Small Biz Perspective Headline"
-        default="Small Biz Perspectives">
-    <meta class="mktoString" id="DutyCallsHeadline" mktoName="Duty Calls Headline"
-        default="Duty Calls, Business Responds">
-    <meta class="mktoString" id="WhatReadHeadline" mktoName="What Reading Headline" default="What We're Reading">
-
-    <!-- SOCIAL AND FORWARDING -->
-    <meta class="mktoString" id="SocialFacebookUrl" mktoName="Facebook URL"
-        default="https://www.facebook.com/uschamber/">
-    <meta class="mktoString" id="SocialTwitterUrl" mktoName="Twitter URL" default="https://www.twitter.com/uschamber/">
-    <meta class="mktoString" id="SocialLinkedInUrl" mktoName="LinkedIn URL"
-        default="https://www.linkedin.com/uschamber/">
-    <meta class="mktoString" id="SocialInstagramUrl" mktoName="Instagram URL"
-        default="https://www.instagram.com/uschamber/">
-
-    <style>
-        ##include('../.tmp/style.css')
-    </style>
-</head>
 <!-- {{system.unsubscribeLink}} -->
 
 <body>
@@ -104,19 +30,44 @@
                 <td align="center" valign="top" width="600">
                 <![endif]-->
                 <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-                    class="width600 navbar mktoModule" mktoName="Temporary Invite Section" id="TemporaryInvite"
-                    width="600" mktoAddByDefault="false">
-                    <tr>
-                        <td class="spacer-v-20"></td>
-                    </tr>
+                    class="width600 mktoModule" width="600" mktoName="Temporary Intro" id="TempSectionContainer">
                     <tr>
                         <td valign="top">
-                            <div class="mktoText" mktoname="Invitation Message" id="InvitationMessage">
-                            </div>
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="spacer-v-30">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        <table id="TempSection" role="presentation" aria-hidden="true" cellspacing="0"
+                                            cellpadding="0" border="0" align="center">
+                                            <tr>
+                                                <td></td>
+                                                <td width="600">
+                                                    <div class="mktoText p-margins blue-links" mktoname="Intro Text"
+                                                        id="IntroText" align="left">
+                                                        <p>Use this section to provide an intro to the email. Only use
+                                                            this for the first time sends. It basically makes the rest
+                                                            of the email look like an attachment.</p>
+                                                        <p>You <a href="#">can use links here</a> if you'd like. </p>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td class="spacer-v-30" width="600">&nbsp;</td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="spacer-v-30">&nbsp;</td>
+                                </tr>
+                            </table>
                         </td>
-                    </tr>
-                    <tr>
-                        <td class="spacer-v-20"></td>
                     </tr>
                 </table>
                 <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
@@ -127,7 +78,7 @@
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td>
-                                        ##include('./components/navbar.html')
+                                        ##include('./components/navbar/base.html')
                                     </td>
                                 </tr>
                             </table>
@@ -141,15 +92,15 @@
                             <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
                                 align="center" width="100%" class="container">
                                 <tr>
-                                    <td class="spacer-v-30"></td>
+                                    <td class="spacer-v-30">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td class="mobile-padding-10">
-                                        ##include('./components/header.html')
+                                        ##include('./components/header/base.html')
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="spacer-v-30"></td>
+                                    <td class="spacer-v-30">&nbsp;</td>
                                 </tr>
                             </table>
                         </td>
@@ -163,7 +114,7 @@
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td>
-                                        ##include('./components/hr-fake-hr-blue.html')
+                                        ##include('./components/layout/hr-fake-hr-blue.html')
                                     </td>
                                 </tr>
                             </table>
@@ -179,7 +130,37 @@
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td class="mobile-padding-10">
-                                        ##include('./components/developments-that-matter.html')
+                                        ##include('./components/developments-that-matter/base.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="full-width mktoModule" mktoName="Gray Bar" id="GreyBar">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td>
+                                        ##include('./components/layout/greyline.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Event" id="EventContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/event/base.html')
                                     </td>
                                 </tr>
                             </table>
@@ -194,7 +175,7 @@
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td>
-                                        ##include('./components/top-story.html')
+                                        ##include('./components/top-story/base.html')
                                     </td>
                                 </tr>
                             </table>
@@ -209,7 +190,71 @@
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td class="mobile-padding-10">
-                                        ##include('./components/chamber-in-action.html')
+                                        ##include('./components/chamber-in-action/base.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Chamber in Action"
+                    id="ChamberInActionStoryContainer1">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/chamber-in-action/story.html', {"count": 1})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Chamber in Action"
+                    id="ChamberInActionStoryContainer2">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/chamber-in-action/story.html', {"count": 2})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Chamber in Action"
+                    id="ChamberInActionStoryContainer3">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/chamber-in-action/story.html', {"count": 3})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Chamber in Action"
+                    id="ChamberInActionStoryContainer4">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/chamber-in-action/story.html', {"count": 4})
                                     </td>
                                 </tr>
                             </table>
@@ -225,7 +270,7 @@
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td>
-                                        ##include('./components/small-biz-persp.html')
+                                        ##include('./components/small-biz-persp/base.html')
                                     </td>
                                 </tr>
                             </table>
@@ -233,16 +278,168 @@
                     </tr>
                 </table>
                 <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
-                    class="width600 mktoModule" width="600" mktoName="Duty Calls Header" id="DutyCallsHeaderContainer">
+                    class="width600 mktoModule" width="600" mktoName="Duty Calls" id="DutyCallsHeaderContainer">
                     <tr>
                         <td valign="top">
                             <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td class="mobile-padding-10">
-                                        ##include('./components/duty-calls.html')
-                                        ##include('./components/what-reading.html')
-                                        ##include('./components/call-to-action.html')
+                                        ##include('./components/duty-calls/base.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Duty Calls Story" id="DutyCallsStoryContainer1">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/duty-calls/story.html', {"count": 1})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Duty Calls Story" id="DutyCallsStoryContainer2">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/duty-calls/story.html', {"count": 2})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Duty Calls Story" id="DutyCallsStoryContainer3">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/duty-calls/story.html', {"count": 3})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Duty Calls Story" id="DutyCallsStoryContainer4">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/duty-calls/story.html', {"count": 4})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="What We're Reading" id="WhatReadingContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/what-reading/base.html')
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="What We're Reading Story"
+                    id="WhatReadingStoryContainer1">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/what-reading/story.html', {"count": 1})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="What We're Reading Story"
+                    id="WhatReadingStoryContainer2">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/what-reading/story.html', {"count": 2})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="What We're Reading Story"
+                    id="WhatReadingStoryContainer3">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/what-reading/story.html', {"count": 3})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="What We're Reading Story"
+                    id="WhatReadingStoryContainer4">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/what-reading/story.html', {"count": 4})
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="width600 mktoModule" width="600" mktoName="Call to Action" id="CallToActionContainer">
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                align="center" width="100%" class="container">
+                                <tr>
+                                    <td class="mobile-padding-10">
+                                        ##include('./components/call-to-action/base.html')
                                     </td>
                                 </tr>
                             </table>
@@ -257,11 +454,11 @@
                                 align="center" width="100%" class="container">
                                 <tr>
                                     <td class="mobile-padding-10">
-                                        ##include('./components/footer.html')
+                                        ##include('./components/footer/base.html')
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="spacer-v-30"></td>
+                                    <td class="spacer-v-30">&nbsp;</td>
                                 </tr>
                             </table>
                         </td>

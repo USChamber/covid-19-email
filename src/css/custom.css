@@ -12,12 +12,24 @@ body * {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #000;
+}
+
+p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h1 {
+    padding: 0 0;
+    margin: 0 0 0 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 h2 {
-    /* text-transform: uppercase; */
-    padding: 10px 0;
+    padding: 0 0;
     margin: 0 0 0 0;
     font-size: 30px;
     font-weight: bold;
@@ -37,8 +49,29 @@ h4 {
 
 /* CLASS DECLARATIONS */
 
+.blue-links a {
+    color: #15bef0;
+    text-decoration: underline;
+}
+.blue-links-no-decoration a {
+    color: #15bef0;
+    text-decoration: none;
+}
+.white-links-no-decoration a {
+    color: #fff;
+    text-decoration: none;
+}
+.black-links a {
+    color: #000;
+    text-decoration: none;
+}
+
 .inline-block {
     display: inline-block;
+}
+
+.color-blue {
+    color: #000;
 }
 
 .color-blue {
@@ -74,6 +107,10 @@ h3.bg {
 }
 
 .btn {
+    width: auto;
+    max-width: 300px;
+    line-height: auto;
+    height: auto;
     padding: 10px 15px;
     display: inline-block;
 }
@@ -99,11 +136,15 @@ h3.bg {
 }
 
 .hr-fake {
-    height: 18px;
+    height: 12px;
     text-align: right;
     font-size: 14px;
     font-weight: bold;
     padding: 0 20px;
+}
+
+.hr-thick {
+    height: 18px;
 }
 
 .hr-red {
@@ -128,6 +169,16 @@ h3.bg {
 
 .hr-thick {
     border-width: 15px;
+}
+
+/* Add margins back within user-editable areas */
+.p-margins p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 1em 0 1em 0 !important;
 }
 
 .text-align-right {
@@ -243,6 +294,11 @@ h3.bg {
     td {
         word-break: normal;
     }
+
+    /* Try to fix the sizing of images inserted in the wysiwig */
+    p img {
+        height: auto !important;
+    }
 }
 
 .width600 {
@@ -260,9 +316,9 @@ h3.bg {
     width: 100%;
 }
 
-#ChamberInAction .hr-fake.hr-red {
+/* #ChamberInAction .hr-fake.hr-red {
     margin: 0 20px;
-}
+} */
 
 .navbar {
     border-bottom: 1px solid #ccc;

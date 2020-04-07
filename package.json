@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "sh deploy.sh",
-    "build": "gulp && node build.js",
+    "build": "gulp && node build.js && pbcopy < ./dist/index_inlined.html",
     "dev": "gulp dev"
   },
   "author": "",
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
     "gulp-file-include": "^2.1.1",

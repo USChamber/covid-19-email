@@ -1,0 +1,17 @@
+.read-more {
+    color: rgb(242, 100, 87);
+    font-size: 80%;
+}
+
+#WhatReadingHeadline a {
+    color: #000;
+    text-decoration: none;
+}
+
+#WhatReadingDescription__1 p a,
+#WhatReadingDescription__2 p a,
+#WhatReadingDescription__3 p a,
+#WhatReadingDescription__4 p a {
+    color: #15bef0;
+    text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+#ChamberActionDescription_1 p a,
+#ChamberActionDescription_2 p a,
+#ChamberActionDescription_3 p a,
+#ChamberActionDescription_4 p a {
+    color: #15bef0;
+    text-decoration: underline;
+    display: inline;
+}

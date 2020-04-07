@@ -1,0 +1,21 @@
+#EventsPageBtn {
+    height: 70px;
+    line-height: 70px;
+    padding: 0 10px 0;
+}
+
+#EventDateTime p {
+    padding: 0 0 0 0;
+    margin: 6px 0 0 5px;
+}
+
+#AddToCal img {
+    width: 70px;
+    height: 70px;
+}
+
+#EventDescription p a {
+    color: #15bef0;
+    text-decoration: underline;
+    display: inline;
+}
