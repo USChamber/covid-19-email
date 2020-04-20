@@ -1,9 +1,9 @@
 #Footer {
-    text-align: center;
-    background: #53565a;
-    background: #eaeaea;
-    color: #fff;
-    color: #53565a;
-    font-size: 11px;
-    table-layout:auto;
+  text-align: center;
+  background: #53565a;
+  background: #eaeaea;
+  color: #fff;
+  color: #53565a;
+  font-size: 11px;
+  table-layout: auto;
 }

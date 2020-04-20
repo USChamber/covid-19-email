@@ -1,32 +1,32 @@
 #Navbar {
-    font-size: 16px;
-    width: 100%;
+  font-size: 16px;
+  width: 100%;
 }
 
 #Navbar td {
-    display: inline-block;
-    padding: 10px;
+  display: inline-block;
+  padding: 10px;
 }
 
 #Navbar #Logo {
-    width: 250px;
+  width: 250px;
 }
 
 #Navbar .quick-links {
-    /* float: right; */
-    text-align: right;
+  /* float: right; */
+  text-align: right;
 }
 
 #Navbar a.quick-link {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 70%;
-    color: #000;
-    text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 70%;
+  color: #000;
+  text-decoration: none;
 }
 
 @media (max-width: 715px) {
-    #Navbar .quick-link {
-        display: none;
-    }
+  #Navbar .quick-link {
+    display: none;
+  }
 }

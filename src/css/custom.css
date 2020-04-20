@@ -15,10 +15,10 @@ a {
     color: #000;
 }
 
-p {
+/* p {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-}
+} */
 
 h1 {
     padding: 0 0;
@@ -346,6 +346,12 @@ h3.bg {
     }
     .mobile-reverse {
         direction: rtl;
+    }
+    #SmallBizHeadline {
+        text-align: center;
+    }
+    #TopStoryHeadline {
+        font-size: 32px;
     }
 }
 @media (min-width: 500px) {

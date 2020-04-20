@@ -1,77 +1,223 @@
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1">
-    <!--[if !mso]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
-    <meta name="x-apple-disable-message-reformatting">
-    <title></title>
-    <!--[if mso]>
-        <style>
-            * { font-family: sans-serif !important; }
-        </style>
-    <![endif]-->
-    <!--[if !mso]><!-->
-    <!-- Insert font reference, e.g. <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
-    <!--<![endif]-->
-
-    <!--HIDDEN FIELDS-->
-    <meta class="mktoString" id="PreheaderText" mktoName="Preheader Text"
-        default="The latest from the U.S. Chamber of Commerce">
-
-    <!--NAVIGATION-->
-    <meta class="mktoString" id="QuickLinkText1" mktoName="Quick Link Text 1" default="Coronavirus Live Blog">
-    <meta class="mktoString" id="QuickLinkUrl1" mktoName="Quick Link URL 1"
-        default="https://www.uschamber.com/series/above-the-fold/coronavirus-live-blog">
-    <meta class="mktoString" id="QuickLinkText2" mktoName="Quick Link Text 2" default="Guidance for Employers">
-    <meta class="mktoString" id="QuickLinkUrl2" mktoName="Quick Link URL 2"
-        default="https://www.uschamber.com/sites/default/files/guidance_for_employers_to_plan_and_respond_to_the_coronavirus_031620.pdf">
-    <meta class="mktoString" id="QuickLinkText3" mktoName="Quick Link Text 3" default="Small Business Checklist">
-    <meta class="mktoString" id="QuickLinkUrl3" mktoName="Quick Link URL 3"
-        default="https://www.uschamber.com/report/coronavirus-emergency-loans-guide-and-checklist-small-businesses">
-
-    <!--HEADER-->
-    <meta class="mktoString" id="HeaderText" mktoName="Header Text" default="Chamber Daily Bulletin">
-    <meta class="mktoString" id="SubheaderText" mktoName="Subheader Text" default="Your daily guide to COVID-19
-                advice, resources, and
-                information.">
-    <meta class="mktoString" id="Tagline" mktoName="Tagline"
-        default="Keep your business strong, prepared, and proactive.">
-    <meta class="mktoString" id="VisitSiteButtonUrl" mktoName="Button URL"
-        default="https://www.uschamber.com/coronavirus">
-    <meta class="mktoString" id="VisitSiteButtonText" mktoName="Button Text" default="Visit
-          Our COVID-19 Page">
-
-    <!--EVENTS-->
-    <meta class="mktoString" id="EventsPageBtnUrl" mktoName="Button URL" default="https://www.uschamber.com/events">
-    <meta class="mktoString" id="EventBtnText" mktoName="utton Text" default="Learn More">
-
-    <!--TOP STORY-->
-    <meta class="mktoImg" id="TopStoryBackgroundImage" mktoName="Top Story Background Image"
-        default="https://page.uschamber.com/rs/462-UWH-935/images/template-default-coronavirus-daily-topstory.jpg">
-
-    <!-- HEADLINES -->
-    <meta class="mktoString" id="DevThatMatterHeadline" mktoName="Headline" default="Developments That Matter">
-    <meta class="mktoString" id="ChamberInActionHeadline" mktoName="Headline" default="Chamber in Action">
-    <meta class="mktoString" id="SmallBizPerspectiveHeadline" mktoName="Headline" default="Small Biz Perspectives">
-    <meta class="mktoString" id="DutyCallsHeadline" mktoName="Headline" default="Duty Calls, Business Responds">
-    <meta class="mktoString" id="WhatReadHeadline" mktoName="Headline" default="What We're Reading">
-
-    <!-- STORIES -->
-    <meta class="mktoString" id="GenericHeadline" mktoName="Headline" default="A Catchy Headline"
-        mktoModuleScope="true">
-    <meta class="mktoString" id="GenericUrl" mktoName="Link" default="https://www.uschamber.com" mktoModuleScope="true">
-
-    <!-- SOCIAL AND FORWARDING -->
-    <meta class="mktoString" id="SocialFacebookUrl" mktoName="Facebook URL"
-        default="https://www.facebook.com/uschamber/">
-    <meta class="mktoString" id="SocialTwitterUrl" mktoName="Twitter URL" default="https://www.twitter.com/uschamber/">
-    <meta class="mktoString" id="SocialLinkedInUrl" mktoName="LinkedIn URL"
-        default="https://www.linkedin.com/company/u-s--chamber-of-commerce">
-    <meta class="mktoString" id="SocialInstagramUrl" mktoName="Instagram URL"
-        default="https://www.instagram.com/uschamber/">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" initial-scale="1" />
+  <!--[if !mso]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <![endif]-->
+  <meta name="x-apple-disable-message-reformatting" />
+  <title></title>
+  <!--[if mso]>
     <style>
-        ##include('../.tmp/style.css')
+      * {
+        font-family: sans-serif !important;
+      }
     </style>
+  <![endif]-->
+  <!--[if !mso]><!-->
+  <!-- Insert font reference, e.g. <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
+  <!--<![endif]-->
+
+  <!--HIDDEN FIELDS-->
+  <meta
+    class="mktoString"
+    id="PreheaderText"
+    mktoName="Preheader Text"
+    default="The latest from the U.S. Chamber of Commerce"
+  />
+
+  <!--NAVIGATION-->
+  <meta
+    class="mktoString"
+    id="QuickLinkText1"
+    mktoName="Quick Link Text 1"
+    default="Coronavirus Live Blog"
+  />
+  <meta
+    class="mktoString"
+    id="QuickLinkUrl1"
+    mktoName="Quick Link URL 1"
+    default="https://www.uschamber.com/series/above-the-fold/coronavirus-live-blog"
+  />
+  <meta
+    class="mktoString"
+    id="QuickLinkText2"
+    mktoName="Quick Link Text 2"
+    default="Guidance for Employers"
+  />
+  <meta
+    class="mktoString"
+    id="QuickLinkUrl2"
+    mktoName="Quick Link URL 2"
+    default="https://www.uschamber.com/sites/default/files/guidance_for_employers_to_plan_and_respond_to_the_coronavirus_031620.pdf"
+  />
+  <meta
+    class="mktoString"
+    id="QuickLinkText3"
+    mktoName="Quick Link Text 3"
+    default="Small Business Checklist"
+  />
+  <meta
+    class="mktoString"
+    id="QuickLinkUrl3"
+    mktoName="Quick Link URL 3"
+    default="https://www.uschamber.com/report/coronavirus-emergency-loans-guide-and-checklist-small-businesses"
+  />
+
+  <!--HEADER-->
+  <meta
+    class="mktoString"
+    id="HeaderText"
+    mktoName="Header Text"
+    default="Chamber Daily Bulletin"
+  />
+  <meta
+    class="mktoString"
+    id="SubheaderText"
+    mktoName="Subheader Text"
+    default="Your daily guide to COVID-19
+                advice, resources, and
+                information."
+  />
+  <meta
+    class="mktoString"
+    id="Tagline"
+    mktoName="Tagline"
+    default="Keep your business strong, prepared, and proactive."
+  />
+  <meta
+    class="mktoString"
+    id="VisitSiteButtonUrl"
+    mktoName="Button URL"
+    default="https://www.uschamber.com/coronavirus"
+  />
+  <meta
+    class="mktoString"
+    id="VisitSiteButtonText"
+    mktoName="Button Text"
+    default="Visit
+          Our COVID-19 Page"
+  />
+
+  <!--EVENTS-->
+  <meta
+    class="mktoString"
+    id="EventsPageBtnUrl"
+    mktoName="Button URL"
+    default="https://www.uschamber.com/events"
+  />
+  <meta
+    class="mktoString"
+    id="EventBtnText"
+    mktoName="utton Text"
+    default="Learn More"
+  />
+
+  <!--TOP STORY-->
+  <meta
+    class="mktoImg"
+    id="TopStoryBackgroundImage"
+    mktoName="Top Story Background Image"
+    default="https://page.uschamber.com/rs/462-UWH-935/images/template-default-coronavirus-daily-topstory.jpg"
+  />
+
+  <!-- HEADLINES -->
+  <meta
+    class="mktoString"
+    id="DevThatMatterHeadline"
+    mktoName="Headline"
+    default="Developments That Matter"
+  />
+  <meta
+    class="mktoString"
+    id="ChamberInActionHeadline"
+    mktoName="Headline"
+    default="Chamber in Action"
+  />
+  <meta
+    class="mktoString"
+    id="SmallBizPerspectiveHeadline"
+    mktoName="Headline"
+    default="Small Biz Perspectives"
+  />
+  <meta
+    class="mktoString"
+    id="DutyCallsHeadline"
+    mktoName="Headline"
+    default="Duty Calls, Business Responds"
+  />
+  <meta
+    class="mktoString"
+    id="WhatReadHeadline"
+    mktoName="Headline"
+    default="What We're Reading"
+  />
+
+  <!-- STORIES -->
+  <meta
+    class="mktoString"
+    id="GenericHeadline"
+    mktoName="Headline"
+    default="A Catchy Headline"
+    mktoModuleScope="true"
+  />
+  <meta
+    class="mktoString"
+    id="GenericUrl"
+    mktoName="Link"
+    default="https://www.uschamber.com"
+    mktoModuleScope="true"
+  />
+  <meta
+    class="mktoBoolean"
+    id="HideLine"
+    mktoName="Remove Grey Bar"
+    default="false"
+    false_value="grey-line"
+    true_value="no-line"
+    false_value_name="No"
+    true_value_name="Yes"
+    mktoModuleScope="true"
+  />
+
+  <meta
+    class="mktoBoolean"
+    id="mktNoTok"
+    mktoName="Disable Marketo Token?"
+    default="false"
+    false_value=""
+    true_value="mktNoTok"
+    false_value_name="NO"
+    true_value_name="YES"
+    mktoModuleScope="true"
+  />
+
+  <!-- SOCIAL AND FORWARDING -->
+  <meta
+    class="mktoString"
+    id="SocialFacebookUrl"
+    mktoName="Facebook URL"
+    default="https://www.facebook.com/uschamber/"
+  />
+  <meta
+    class="mktoString"
+    id="SocialTwitterUrl"
+    mktoName="Twitter URL"
+    default="https://www.twitter.com/uschamber/"
+  />
+  <meta
+    class="mktoString"
+    id="SocialLinkedInUrl"
+    mktoName="LinkedIn URL"
+    default="https://www.linkedin.com/company/u-s--chamber-of-commerce"
+  />
+  <meta
+    class="mktoString"
+    id="SocialInstagramUrl"
+    mktoName="Instagram URL"
+    default="https://www.instagram.com/uschamber/"
+  />
+
+  <style>
+    ##include('../.tmp/style.css')
+  </style>
 </head>
