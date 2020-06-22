@@ -32,11 +32,24 @@
                             <v:fill type="tile" src="${TopStoryBackgroundImage}" color="#53565a" />
                             <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
                             <![endif]-->
-              <h2 id="TopStoryHeadline" class="padding-20 mobile-padding-20">
-                <a href="${GenericUrl}" class="${mktNoTok}"
-                  >${GenericHeadline}</a
-                >
-              </h2>
+              <table width="100%">
+                <tr>
+                  <td class="spacer-v-10">&nbsp;</td>
+                </tr>
+                <tr width="100%">
+                  <td width="100%" class="padding-20 mobile-padding-20">
+                    <h2>${TopStoryHeader}</h2>
+                    <h3 id="TopStoryHeadline" class="">
+                      <a href="${GenericUrl}" class="${mktNoTok}"
+                        >${GenericHeadline}</a
+                      >
+                    </h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="spacer-v-10">&nbsp;</td>
+                </tr>
+              </table>
               <!--[if gte mso 9]>
                             </v:textbox>
                             </v:rect>
