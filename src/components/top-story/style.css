@@ -17,6 +17,10 @@
   }
 }
 
+#TopStoryHeadline {
+  text-align: center;
+}
+
 #TopStoryHeadline a {
   text-decoration: none;
   color: #fff;
