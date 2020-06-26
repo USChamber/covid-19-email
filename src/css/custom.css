@@ -114,6 +114,10 @@ h3.bg {
   color: #fff;
 }
 
+.bg-light-gray {
+  background: rgb(247, 248, 248);
+}
+
 .btn {
   width: auto;
   max-width: 300px;
@@ -187,6 +191,11 @@ h3.bg {
   margin-left: 0;
   margin-right: 0;
   margin: 1em 0 1em 0 !important;
+}
+
+.yt-p-margins p {
+  display: block;
+  margin: 0;
 }
 
 .text-align-right {
@@ -336,11 +345,16 @@ h3.bg {
   border-bottom: 1px solid #ccc;
 }
 
-.split-image {
+.sbp-split-image {
   width: 60%;
 }
 
-.split-image img {
+.yt-split-image {
+  width: 30%;
+}
+
+.sbp-split-image img,
+.yt-split-image img {
   width: 100%;
 }
 
