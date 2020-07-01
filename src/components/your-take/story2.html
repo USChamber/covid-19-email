@@ -6,7 +6,7 @@
   cellpadding="0"
   border="0"
   align="center"
-  class="document"
+  class="document your-take-story"
 >
   <tr>
     <td class="yt-split-image mobile-block" align="left" valign="top">
@@ -50,16 +50,25 @@
     </td>
     <td class="mobile-block bg" dir="ltr" valign="top">
         <table>
-          ##include('./q-and-a.html', {"count":1})
+          ##include('./q-and-a.html', {"story":2, "count":1})
           <tr>
             <td class="spacer-v-30"></td>
           </tr>
-          ##include('./q-and-a.html', {"count":2})
-        </table>
+          ##include('./q-and-a.html', {"story":2, "count":2})
+        </table> 
     </td>
   </tr>
   <tr>
-    <td class="spacer-v-30 mobile-block mobile-hide">&nbsp;</td>
-    <td class="spacer-v-15 mobile-block">&nbsp;</td>
+    <td></td>
+    <td class="spacer-v-20" width="600">&nbsp;</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="3" class="spacer-v-30 ${HideLine}" width="600">&nbsp;</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="spacer-v-30" width="600">&nbsp;</td>
+    <td></td>
   </tr>
 </table>

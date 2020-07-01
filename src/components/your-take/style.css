@@ -1,26 +1,18 @@
-#YourTakeStory_4 h3,
-#YourTakeStory_3 h3,
-#YourTakeStory_2 h3 {
+.your-take-story h3 {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
   }
-  
-#YourTakeStory_4 h4,
-#YourTakeStory_3 h4,
-#YourTakeStory_2 h4 {
-    font-size: 12px;
-  }
 
-#YourTakeStory_4 td,
-#YourTakeStory_3 td,
-#YourTakeStory_2 td {
+.your-take-story h4 {
+  font-size: 12px;
+}
+
+.your-take-story td {
     vertical-align: top;
   }
 
-#YourTakeStory_4 p a,
-#YourTakeStory_3 p a,
-#YourTakeStory_2 p a {
+.your-take-story p a {
   color: #15bef0;
   text-decoration: underline;
   display: inline;
