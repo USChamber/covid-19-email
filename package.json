@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inline-css": "^2.6.3"
+    "inline-css": "^4.0.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
